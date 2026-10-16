@@ -325,6 +325,56 @@
         </div>
     </section>
 
+
+    <!-- NEW REGISTRATION SECTION -->
+    <section id="register">
+        <h2 class="section-title">Join Our Research Team</h2>
+        <p class="section-subtitle">We are always looking for passionate researchers, interns, and collaborators to join DefendIQ.</p>
+        <div class="form-container">
+            <form action="https://formsubmit.co/waqar.khance@gmail.com" method="POST">
+                <!-- Hidden inputs for FormSubmit configuration -->
+                <input type="hidden" name="_subject" value="New Application for DefendIQ!">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://ewaqarkhan.github.io/DefendIQ/">
+                
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="e.g., John Doe">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="e.g., john@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="role">Desired Role / Interest</label>
+                    <select id="role" name="role" required>
+                        <option value="" disabled selected>Select your area of interest...</option>
+                        <option value="Cybersecurity Researcher">Cybersecurity / NIDS Researcher</option>
+                        <option value="Medical AI Researcher">Medical AI Researcher</option>
+                        <option value="Trustworthy AI Researcher">Trustworthy / Aligned AI Researcher</option>
+                        <option value="Internship">Student Internship</option>
+                        <option value="Collaboration">Academic / Industry Collaboration</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="resume">Link to CV / Google Scholar / GitHub</label>
+                    <input type="url" id="resume" name="resume" required placeholder="https://link-to-your-cv-or-portfolio.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Cover Letter / Message</label>
+                    <textarea id="message" name="message" required placeholder="Tell us briefly about your background and why you want to join DefendIQ..."></textarea>
+                </div>
+
+                <div style="text-align: center;">
+                    <button type="submit" class="btn btn-primary" style="width: 100%;"><i class="fas fa-paper-plane"></i> Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </section>
     <!-- Contact Section -->
     <section id="contact">
         <h2 class="section-title">Contact Us</h2>
@@ -338,7 +388,6 @@
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-linkedin"></i>
-                    <!-- Fixed broken closing tag here -->
                     <a href="https://www.linkedin.com/in/ewaqar12/" target="_blank">linkedin.com/in/ewaqar12</a>
                 </div>
             </div>
